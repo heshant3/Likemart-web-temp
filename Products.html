@@ -1,0 +1,632 @@
+
+<!doctype html>
+<html lang="en">
+<title>Like | Products</title>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Like | Srilankan inovative products and solutions">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#E74C3C">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#E74C3C">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#E74C3C">
+    
+    <!-- Page styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+   <!--  <link rel="stylesheet" href="cssjs/material.min.css"> -->
+    <link rel="stylesheet" href="./cssjs/material.min.css" />
+    <link rel="stylesheet" href="./cssjs/styles.css">
+    <link rel="stylesheet" href="./cssjs/main.css">
+    
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <link rel="icon" href="images/drawer.png">
+
+    <!-- right click disable code -->
+    <!-- <script type="text/javascript"> 
+    function disableselect(e){  
+    return false  
+    }  
+    
+    function reEnable(){  
+    return true  
+    }  
+    
+    //if IE4+  
+    document.onselectstart=new Function ("return false")  
+    document.oncontextmenu=new Function ("return false")  
+    //if NS6  
+    if (window.sidebar){  
+    document.onmousedown=disableselect  
+    document.onclick=reEnable  
+    }
+    </script> -->
+    <style>
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#tabs{
+  padding-top:100px;
+}
+
+
+.demo-card-square.mdl-card {
+  width: 320px;
+  height: 320px;
+}
+.demo-card-square > .mdl-card__title {
+  color: #fff;
+  background:
+    url('../assets/demos/dog.png') bottom right 15% no-repeat #46B6AC;
+}
+
+#c1, #c2 ,#c3 ,#c4{
+    width: 25%; 
+}
+
+</style>
+</head>
+<body>
+
+<!-- **************************************************************************************************** -->
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+
+      <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
+        <div class="mdl-layout__header-row">
+          <span class="android-title mdl-layout-title">
+
+            <img class="android-logo-image" src="images/logo.png">
+          </span>
+          <!-- Add spacer, to align navigation to the right in desktop -->
+          <div class="android-header-spacer mdl-layout-spacer"></div>
+          <div class="android-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
+            <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field">
+              <i class="material-icons">search</i>
+            </label>
+            <div class="mdl-textfield__expandable-holder">
+              <input class="mdl-textfield__input" type="text" id="search-field">
+            </div>
+          </div>
+
+      <!-- Navigation -->
+      <div class="android-navigation-container">
+          <nav class="android-navigation mdl-navigation">
+              <a class="mdl-navigation__link mdl-typography--text-uppercase"  href="index.html">Home</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" id="active"href="Products.html">Products</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="newsfeed.html">Newsfeed</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="contact.html">Contact us</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="join.html">Join with us</a>
+            </nav>
+        </nav>
+      </div>
+
+    
+      <span class="android-mobile-title mdl-layout-title">
+        <img class="android-logo-image" src="images/logo.png">
+      </span>
+
+      
+
+        </div>
+      </div>
+
+<!-- ****************************************************************************************** -->
+      <div class="android-drawer mdl-layout__drawer">
+        <span class="mdl-layout-title">
+            <!-- <img class="likedraw" src="images/drawer.png"> -->
+            <img class="like" src="images/android-logo-white.png">
+        </span>
+
+        <nav class="mdl-navigation">
+            <a class="mdl-navigation__link"  href="index.html">Home</a>
+            <a class="mdl-navigation__link"  href="Products.html">Products</a>
+            <a class="mdl-navigation__link"  href="Newsfeed">Newsfeed</a>
+            <a class="mdl-navigation__link"  href="contact.html">Contact us</a>
+            <a class="mdl-navigation__link"  href="join.html">Join with us</a> 
+          </nav>
+      </div>
+
+      <div class="android-content mdl-layout__content"></div>
+
+
+    </div>
+   
+
+<!-- tabs -->
+
+<div id="tabs">
+
+  <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect tabalign">
+          <div class="mdl-tabs__tab-bar">
+  
+  
+  
+  
+  
+              <!-- tab activate effect : uncomment -->
+  
+  
+              <!-- <a href="#dashboard" class="mdl-tabs__tab is-active" id="1"><i class="material-icons menualign md24">dashboard</i></a> -->
+              
+              <!---->
+              
+              
+              
+              
+              <a href="#dashboard" class="mdl-tabs__tab " id="1">  <i class="material-icons" id="ico">&#xE80C;</i></a>
+        <div class="mdl-tooltip mdl-tooltip--large" for="1">
+                      Education
+              </div>
+              
+              <a href="#tab1" class="mdl-tabs__tab is-active" id="2"><i class="material-icons" id="ico">&#xE8F9;</i></a>
+  
+              <div class="mdl-tooltip mdl-tooltip--large" for="2">
+                      Business
+              </div>
+              <a href="#tab2" class="mdl-tabs__tab" id="3"><i class="material-icons" id="ico">&#xE3A1;</i></a>
+              <div class="mdl-tooltip mdl-tooltip--large" for="3">
+                Entertainment
+        </div>
+              <a href="#tab3" class="mdl-tabs__tab" id="4"><i class="material-icons" id="ico">&#xE0AF;</i></a>
+              <div class="mdl-tooltip mdl-tooltip--large" for="4">
+                Industrial
+        </div>
+          </div>
+        
+       
+          <!-- tab contents -->
+  
+  
+  
+  <div id="tabalign">
+<center>
+          <div class="mdl-tabs__panel " id="dashboard">
+
+              <div class="android-more-section">
+                  <div class="android-section-title mdl-typography--display-1-color-contrast">Educational products</div>
+
+                  <div class="android-card-container mdl-grid">
+                    <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+                      <div class="mdl-card__media">
+                        <img src="images/edu.png">
+                      </div>
+                      <div class="mdl-card__title">
+                         <h4 class="mdl-card__title-text">Eduplus</h4>
+                      </div>
+                      <div class="mdl-card__supporting-text">
+                        <span class="mdl-typography--font-light mdl-typography--subhead">
+                          <center>Smart class management system , with full features</center>
+                      </div>
+                      <div class="mdl-card__actions">
+                         <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="https://www.facebook.com/Heshantahrindu" target="_blank">
+                           More
+                           <i class="material-icons">chevron_right</i>
+                         </a>
+                      </div>
+                    </div>
+
+
+
+                    <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+                        <div class="mdl-card__media">
+                          <img src="images/edu.png">
+                        </div>
+                        <div class="mdl-card__title">
+                           <h4 class="mdl-card__title-text">Edulite</h4>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                          <span class="mdl-typography--font-light mdl-typography--subhead">
+                            <center>Smart class management system , with limited features</center>
+                        </div>
+                        <div class="mdl-card__actions">
+                           <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="https://www.facebook.com/Heshantahrindu" target="_blank">
+                             More
+                             <i class="material-icons">chevron_right</i>
+                           </a>
+                        </div>
+                      </div>
+
+
+                      <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+                          <div class="mdl-card__media">
+                            <img src="images/edu.png">
+                          </div>
+                          <div class="mdl-card__title">
+                             <h4 class="mdl-card__title-text">Eduplus-jenny</h4>
+                          </div>
+                          <div class="mdl-card__supporting-text">
+                            <span class="mdl-typography--font-light mdl-typography--subhead">
+                              <center>Library management software</center>
+                          </div>
+                          <div class="mdl-card__actions">
+                             <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="https://www.facebook.com/Heshantahrindu" target="_blank">
+                               More
+                               <i class="material-icons">chevron_right</i>
+                             </a>
+                          </div>
+                        </div>
+
+                        <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+                            <div class="mdl-card__media">
+                              <img src="images/edu.png">
+                            </div>
+                            <div class="mdl-card__title">
+                               <h4 class="mdl-card__title-text">qwe</h4>
+                            </div>
+                            <div class="mdl-card__supporting-text">
+                              <span class="mdl-typography--font-light mdl-typography--subhead">
+                                <center>Custom softwares for your idea</center>
+                            </div>
+                            <div class="mdl-card__actions">
+                               <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="https://www.facebook.com/Heshantahrindu" target="_blank">
+                                 More
+                                 <i class="material-icons">chevron_right</i>
+                               </a>
+                            </div>
+                          </div>
+        
+                   
+        
+                              
+
+
+          </div></div></div>
+  
+          <div class="mdl-tabs__panel is-active" id="tab1">
+               
+              <div class="android-more-section">
+                  <div class="android-section-title mdl-typography--display-1-color-contrast">Business products</div>
+
+                  <div class="android-card-container mdl-grid">
+                    <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+                      <div class="mdl-card__media">
+                        <img src="images/edu.png">
+                      </div>
+                      <div class="mdl-card__title">
+                         <h4 class="mdl-card__title-text">Eduplus</h4>
+                      </div>
+                      <div class="mdl-card__supporting-text">
+                        <span class="mdl-typography--font-light mdl-typography--subhead">
+                          <center>Smart class management system , with full features</center>
+                      </div>
+                      <div class="mdl-card__actions">
+                         <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="https://www.facebook.com/Heshantahrindu" target="_blank">
+                           More
+                           <i class="material-icons">chevron_right</i>
+                         </a>
+                      </div>
+                    </div>
+
+
+
+                    <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+                        <div class="mdl-card__media">
+                          <img src="images/edu.png">
+                        </div>
+                        <div class="mdl-card__title">
+                           <h4 class="mdl-card__title-text">Edulite</h4>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                          <span class="mdl-typography--font-light mdl-typography--subhead">
+                            <center>Smart class management system , with limited features</center>
+                        </div>
+                        <div class="mdl-card__actions">
+                           <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="https://www.facebook.com/Heshantahrindu" target="_blank">
+                             More
+                             <i class="material-icons">chevron_right</i>
+                           </a>
+                        </div>
+                      </div>
+
+
+                      <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+                          <div class="mdl-card__media">
+                            <img src="images/edu.png">
+                          </div>
+                          <div class="mdl-card__title">
+                             <h4 class="mdl-card__title-text">Eduplus-jenny</h4>
+                          </div>
+                          <div class="mdl-card__supporting-text">
+                            <span class="mdl-typography--font-light mdl-typography--subhead">
+                              <center>Library management software</center>
+                          </div>
+                          <div class="mdl-card__actions">
+                             <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="https://www.facebook.com/Heshantahrindu" target="_blank">
+                               More
+                               <i class="material-icons">chevron_right</i>
+                             </a>
+                          </div>
+                        </div>
+
+                        <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+                            <div class="mdl-card__media">
+                              <img src="images/edu.png">
+                            </div>
+                            <div class="mdl-card__title">
+                               <h4 class="mdl-card__title-text">sample</h4>
+                            </div>
+                            <div class="mdl-card__supporting-text">
+                              <span class="mdl-typography--font-light mdl-typography--subhead">
+                                <center>Custom softwares for your idea</center>
+                            </div>
+                            <div class="mdl-card__actions">
+                               <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="https://www.facebook.com/Heshantahrindu" target="_blank">
+                                 More
+                                 <i class="material-icons">chevron_right</i>
+                               </a>
+                            </div>
+                          </div>
+        
+                   
+        
+                              
+
+
+          </div></div></div>
+           
+           </div>
+  
+          <div class="mdl-tabs__panel" id="tab2">
+            <center>
+              <div class="android-more-section">
+                  <div class="android-section-title mdl-typography--display-1-color-contrast">Entertainment products</div>
+
+                  <div class="android-card-container mdl-grid">
+                    <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+                      <div class="mdl-card__media">
+                        <img src="images/edu.png">
+                      </div>
+                      <div class="mdl-card__title">
+                         <h4 class="mdl-card__title-text">Eduplus</h4>
+                      </div>
+                      <div class="mdl-card__supporting-text">
+                        <span class="mdl-typography--font-light mdl-typography--subhead">
+                          <center>Smart class management system , with full features</center>
+                      </div>
+                      <div class="mdl-card__actions">
+                         <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="https://www.facebook.com/Heshantahrindu" target="_blank">
+                           More
+                           <i class="material-icons">chevron_right</i>
+                         </a>
+                      </div>
+                    </div>
+
+
+
+                    <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+                        <div class="mdl-card__media">
+                          <img src="images/edu.png">
+                        </div>
+                        <div class="mdl-card__title">
+                           <h4 class="mdl-card__title-text">Edulite</h4>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                          <span class="mdl-typography--font-light mdl-typography--subhead">
+                            <center>Smart class management system , with limited features</center>
+                        </div>
+                        <div class="mdl-card__actions">
+                           <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="https://www.facebook.com/Heshantahrindu" target="_blank">
+                             More
+                             <i class="material-icons">chevron_right</i>
+                           </a>
+                        </div>
+                      </div>
+
+
+                      <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+                          <div class="mdl-card__media">
+                            <img src="images/edu.png">
+                          </div>
+                          <div class="mdl-card__title">
+                             <h4 class="mdl-card__title-text">pro</h4>
+                          </div>
+                          <div class="mdl-card__supporting-text">
+                            <span class="mdl-typography--font-light mdl-typography--subhead">
+                              <center>Library management software</center>
+                          </div>
+                          <div class="mdl-card__actions">
+                             <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="https://www.facebook.com/Heshantahrindu" target="_blank">
+                               More
+                               <i class="material-icons">chevron_right</i>
+                             </a>
+                          </div>
+                        </div>
+
+                        <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+                            <div class="mdl-card__media">
+                              <img src="images/edu.png">
+                            </div>
+                            <div class="mdl-card__title">
+                               <h4 class="mdl-card__title-text">Eduplus-julie</h4>
+                            </div>
+                            <div class="mdl-card__supporting-text">
+                              <span class="mdl-typography--font-light mdl-typography--subhead">
+                                <center>Custom softwares for your idea</center>
+                            </div>
+                            <div class="mdl-card__actions">
+                               <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="https://www.facebook.com/Heshantahrindu" target="_blank">
+                                 More
+                                 <i class="material-icons">chevron_right</i>
+                               </a>
+                            </div>
+                          </div>
+        
+                   
+        
+                              
+
+
+           </div></div><!--</div>--></center> 
+
+            </div>
+  
+            <div class="mdl-tabs__panel" id="tab3">
+              <center>
+                <div class="android-more-section">
+                    <div class="android-section-title mdl-typography--display-1-color-contrast">Industrial products</div>
+  
+                    <div class="android-card-container mdl-grid">
+                      <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+                        <div class="mdl-card__media">
+                          <img src="images/edu.png">
+                        </div>
+                        <div class="mdl-card__title">
+                           <h4 class="mdl-card__title-text">Eduplu</h4>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                          <span class="mdl-typography--font-light mdl-typography--subhead">
+                            <center>Smart class management system , with full features</center>
+                        </div>
+                        <div class="mdl-card__actions">
+                           <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="https://www.facebook.com/Heshantahrindu" target="_blank">
+                             More
+                             <i class="material-icons">chevron_right</i>
+                           </a>
+                        </div>
+                      </div>
+  
+  
+  
+                      <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+                          <div class="mdl-card__media">
+                            <img src="images/edu.png">
+                          </div>
+                          <div class="mdl-card__title">
+                             <h4 class="mdl-card__title-text">Edulite</h4>
+                          </div>
+                          <div class="mdl-card__supporting-text">
+                            <span class="mdl-typography--font-light mdl-typography--subhead">
+                              <center>Smart class management system , with limited features</center>
+                          </div>
+                          <div class="mdl-card__actions">
+                             <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="https://www.facebook.com/Heshantahrindu" target="_blank">
+                               More
+                               <i class="material-icons">chevron_right</i>
+                             </a>
+                          </div>
+                        </div>
+  
+  
+                        <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+                            <div class="mdl-card__media">
+                              <img src="images/edu.png">
+                            </div>
+                            <div class="mdl-card__title">
+                               <h4 class="mdl-card__title-text">Eduplus-jenny</h4>
+                            </div>
+                            <div class="mdl-card__supporting-text">
+                              <span class="mdl-typography--font-light mdl-typography--subhead">
+                                <center>Library management software</center>
+                            </div>
+                            <div class="mdl-card__actions">
+                               <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="https://www.facebook.com/Heshantahrindu" target="_blank">
+                                 More
+                                 <i class="material-icons">chevron_right</i>
+                               </a>
+                            </div>
+                          </div>
+  
+
+
+                          <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp" >
+                              <div class="mdl-card__media">
+                                <img src="images/edu.png">
+                              </div>
+                              <div class="mdl-card__title">
+                                 <h4 class="mdl-card__title-text">Eduplus-julie</h4>
+                              </div>
+                              <div class="mdl-card__supporting-text">
+                                <span class="mdl-typography--font-light mdl-typography--subhead">
+                                  <center>Custom softwares for your idea</center>
+                              </div>
+                              <div class="mdl-card__actions">
+                                 <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="https://www.facebook.com/Heshantahrindu" target="_blank">
+                                   More
+                                   <i class="material-icons">chevron_right</i>
+                                 </a>
+                              </div>
+                            </div>
+          
+                     
+                                
+  
+  
+            </div></div></div></center>
+              </div>
+  
+             
+        </div>
+  </div>
+
+
+
+  <footer class="android-footer mdl-mega-footer">
+
+     
+      <div class="mdl-mega-footer--top-section">
+          <div class="mdl-mega-footer--left-section">
+            <a href="https://www.facebook.com/LMARTSL" target="_blank"><i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i></a>&nbsp;
+            <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>&nbsp;
+            <a href="https://www.twitter.com/likemart1" target="_blank"><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a>&nbsp;
+            <a href="https://www.youtube.com/channel/UC_ou4oQ1l_Dt6NMn0eYO8Hg" target="_blank"><i class="fa fa-youtube-play fa-3x" aria-hidden="true"></i></a>
+          </div>
+
+      <div class="mdl-mega-footer--right-section">
+        <a class="mdl-typography--font-light" href="#top">
+          Back to Top
+        <i class="material-icons">expand_less</i>
+        </a>
+      </div>
+    </div>
+
+        <div class="mdl-mega-footer--middle-section">
+          <p class="mdl-typography--font-light">
+            <script type="text/javascript">
+            document.write(new Date().getFullYear());
+          </script> 
+          &copy; Likemart . All Right Reserved</p>
+          <p class="mdl-typography--font-light">No 104/A. 4th Lane , Dikhenapura , Munagama , Horana ,Srilanka</p>
+        </div>
+
+        <div class="mdl-mega-footer--bottom-section">
+          <a class="android-link android-link-menu mdl-typography--font-light" id="version-dropdown">
+            Help
+            <i class="material-icons">arrow_drop_up</i>
+          </a>
+          <ul class="mdl-menu mdl-js-menu mdl-menu--top-left mdl-js-ripple-effect" for="version-dropdown">
+            
+            <li class="mdl-menu__item">Questions and answers</li>
+            <li class="mdl-menu__item">Genaral help</li>
+            <li class="mdl-menu__item">How to request a solution from us</li>
+            <li class="mdl-menu__item">Contact</li>
+          </ul>
+          <a class="android-link android-link-menu mdl-typography--font-light" id="developers-dropdown">
+            For inventors
+            <i class="material-icons">arrow_drop_up</i>
+          </a>
+          <ul class="mdl-menu mdl-js-menu mdl-menu--top-left mdl-js-ripple-effect" for="developers-dropdown">
+            <li class="mdl-menu__item">Join with us</li>
+            <li class="mdl-menu__item">Share your idea</li>
+            <li class="mdl-menu__item">Get help from us</li>
+            
+          </ul>
+          <a class="android-link mdl-typography--font-light" href="">Newsfeed</a>
+          <a class="android-link mdl-typography--font-light" href="">Privacy Policy</a>
+        </div>
+
+      </footer>
+  </div>
+
+
+
+
+
+</body>
+<script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+</html>
